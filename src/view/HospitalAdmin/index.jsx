@@ -77,7 +77,7 @@ const HospitalAdminDashboard = () => {
                 onChange={(e) => handleChange("password", e.target.value)}
             />
             <FormControl fullWidth>
-                <InputLabel id="role_label">{userInfo.role || ""}</InputLabel>
+                <InputLabel id="role_label">Role</InputLabel>
                 <Select
                     labelId="role_label"
                     id="role_label"

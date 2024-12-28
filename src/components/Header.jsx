@@ -103,7 +103,7 @@ const Header = () => {
                     aria-expanded={open ? "true" : undefined}
                 >
                     <Avatar sx={{ width: 32, height: 32 }}>
-                        {state.username ? state.username[0] : ""}
+                        {state.username ? state.username[0].toUpperCase() : ""}
                     </Avatar>
                 </IconButton>
             </Tooltip>

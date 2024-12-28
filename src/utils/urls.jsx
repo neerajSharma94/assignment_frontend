@@ -1,4 +1,6 @@
-const baseUrl = "http://localhost:8000/api/";
+const baseUrl =
+    import.meta.env.VITE_BASE_URL ||
+    "https://assignment-backend-hcnm.onrender.com/api/";
 
 const addHospitalAdmin = `${baseUrl}admin/addHospitalAdmin`;
 const addStaffUrl = `${baseUrl}staff`;
